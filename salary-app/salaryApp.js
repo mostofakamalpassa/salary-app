@@ -138,13 +138,7 @@ const displayLastItemDialog = function (lastItem) {
   document.getElementById("showSalary").innerText = d3.format(",.0f")(
     lastItem.salary
   );
-  // dlg.dialog({
-  //   buttons: {
-  //     Ok: function () {
-  //       $(this).dialog("close");
-  //     },
-  //   },
-  // });
+  //  
 };
 
 var showDataError = function (name, salary) {
